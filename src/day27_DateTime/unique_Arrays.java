@@ -20,6 +20,12 @@ for (int each2:arr) {
     if (count == 1) {
         System.out.println(each2);
     }
+    System.out.println("=============================================");
+    int[] arr2={3,3,4,4,5,5,6,7,8,9};
+    uniqueElements(arr2);
+    System.out.println("==============================================");
+    double[] arr3={3.3,5.4, 6, 6, 7,7};
+    uniqueElements(arr3);
 }
     }
     public static void uniqueElements(int[] arr){
@@ -35,4 +41,19 @@ for (int each2:arr) {
             }
         }
     }
+    public static void uniqueElements(double[] arr){
+        for (double each2:arr) {
+            int count = 0;
+            for (double each : arr) {
+                if (each == each2) {
+                    count++;
+                }
+            }
+            if (count == 1) {
+                System.out.println(each2);
+            }
+        }
+    }
+
+
 }
