@@ -10,18 +10,18 @@ public class zombie2 {
         }
 
         //TODO. Write you code below this line.
-        int[] arr=new int[inhabitants.length]; //arr=[0,0,0,0,0]
+        int[] arr=new int[inhabitants.length]; //arr=[0,0,0,0,0,0,0,0]
         int j=0;
-        System.out.println("Day "+j+" "+Arrays.toString(inhabitants));
-        while(!Arrays.equals(inhabitants,arr)){
+        do {
+            System.out.println("Day "+j+" "+Arrays.toString(inhabitants));
             j++;
             for(int i=0; i<inhabitants.length; i++){
                 inhabitants[i]/=2;
             }
-            System.out.println("Day "+j+" "+Arrays.toString(inhabitants));
-        }
+        }while(!Arrays.equals(inhabitants,arr));
+        System.out.println("Day "+j+" "+Arrays.toString(inhabitants));
         System.out.println("---- EXTINCT ----");
 
-        float a= 2324;
+
     }
 }
