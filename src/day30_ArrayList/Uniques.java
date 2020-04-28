@@ -19,7 +19,7 @@ public class Uniques {
 
         ArrayList<Integer> uniques= new ArrayList<>();
 
-        for (int i=0; i<3; i++){
+        for (int i=0; i<list.size(); i++){
 
             int count=0;
             for (Integer each:list){
