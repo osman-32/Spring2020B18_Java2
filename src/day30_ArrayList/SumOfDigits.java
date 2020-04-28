@@ -27,6 +27,9 @@ public class SumOfDigits {
             if (each>=48 && each<=57){// if each is digit, we will convert to int and add it to sum
                 sum+=Integer.parseInt(""+each);
             }
+            if(Character.isAlphabetic(each)){
+                continue;
+            }
 
         }
         System.out.println(sum);
