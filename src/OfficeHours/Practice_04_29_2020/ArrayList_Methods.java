@@ -46,6 +46,20 @@ public class ArrayList_Methods {
         list2.set(3,"F");
         System.out.println(list2);
 
+        list2.remove(3);
+        System.out.println(list2);
+
+        boolean r1=list2.remove("A");
+        System.out.println(list2);
+        System.out.println(r1);
+
+        boolean r2=list2.remove("Z");
+        System.out.println(r2);
+
+        list2.clear();
+        System.out.println(list2.size());
+        System.out.println(list2);
+
 
     }
 }
