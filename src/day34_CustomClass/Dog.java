@@ -14,4 +14,10 @@ public class Dog {
         this.name=name; // this keyword is used for calling object instance (instance variable)
     }
 
+    public String toString(){
+        return "Dog Name: "+name+", breed: "+breed+", size: "+size+", age: "+age;
+
+
+    }
+
 }
