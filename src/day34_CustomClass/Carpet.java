@@ -21,4 +21,6 @@ public class Carpet {
     public String toString(){
         return "Width: "+width+ " \nlength "+length+" \nunit price $"+unitPrice+"\nTotal Cost $"+calcCost();
     }
+
+
 }
