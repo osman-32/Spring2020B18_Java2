@@ -39,5 +39,21 @@ public class AppleINC {
         }
         System.out.println("=================================================================");
         System.out.println("In my scrum team, we have "+scrum1.testersTeam.size()+" testers and "+scrum1.devpTeam.size()+" developers");
+
+        /*
+        create scrum2: 4 developers, 2 testers
+        create scrum3: 5 developers, 3 testers
+
+        create an array of scrum: {scrum1, scrum2, scrum3};
+            1. iterator teh array to print out all the testers who have salary>120000
+            2. print out all the developers who have salary<120000
+
+         creat an ArrayList of scrum: {scrum1, scrum2, scrum3}
+            1. remove all the testers who have salary<100000
+            2. remove all the developers who have salary<120000
+
+         NOTE: DO NOT create any ArrayList of Testers or Developers. Use the ArrayList in ScrumTeam class only
+
+         */
     }
 }
