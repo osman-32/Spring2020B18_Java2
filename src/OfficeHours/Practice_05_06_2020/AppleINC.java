@@ -21,5 +21,23 @@ public class AppleINC {
         for(Tester each:scrum1.testersTeam){//prints out everysingle tester from scrumteam
             System.out.println(each);
         }
+        System.out.println("==============================================================");
+        Developer dev1=new Developer();
+        dev1.setInfo("Barzy","Senior Developer",120200,112334343);
+        Developer dev2= new Developer();
+        dev2.setInfo("Emrah", "Usta Developer", 300000,223232);
+
+        scrum1.hireADeveloper(dev1);
+        scrum1.hireADeveloper(dev2);
+
+        scrum1.fireADeveloper(112334343);
+
+        System.out.println(scrum1.devpTeam.size());
+
+        for (Developer each:scrum1.devpTeam){
+            System.out.println(each);
+        }
+        System.out.println("=================================================================");
+        System.out.println("In my scrum team, we have "+scrum1.testersTeam.size()+" testers and "+scrum1.devpTeam.size()+" developers");
     }
 }
