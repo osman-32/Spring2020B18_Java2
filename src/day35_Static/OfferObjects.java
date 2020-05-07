@@ -4,6 +4,14 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class OfferObjects {
+    /*
+     Create 5 offer objects, and add them into the list of offers, and then:
+            1. use for loop to print out the info of each offer
+            2. write a program that can only retain the offers if:
+                    1. the offer is for fulltime position
+                    2. offer is from your local area
+                    3. salary is greater than 100K
+     */
     public static void main(String[] args) {
         Offer offer1=new Offer();
         offer1.setInfo("VA", "BOA",100000,true);
