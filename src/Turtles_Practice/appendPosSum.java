@@ -18,7 +18,7 @@ public class appendPosSum {
 
 
         int sum=0;
-        for(int i=0; i<result.size();i++){
+        for(int i=0; i<arr.size();i++){
             if(arr.get(i)>0){
                 result.add(arr.get(i));
                 sum+=arr.get(i);
