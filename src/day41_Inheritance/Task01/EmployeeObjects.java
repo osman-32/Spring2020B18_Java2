@@ -1,4 +1,4 @@
-package day41_Inheritance.Test;
+package day41_Inheritance.Task01;
 
 public class EmployeeObjects {
     public static void main(String[] args) {
