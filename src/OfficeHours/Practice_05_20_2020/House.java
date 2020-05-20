@@ -9,13 +9,17 @@ public class House {
         System.out.println(dog1);
         System.out.println(dog2);
 
+        dog2.bark();
+
         Cat cat1=new Cat("Muffin", 7,"White", "Medium","Ragdoll");
+        cat1.scratch();
 
         System.out.println(cat1);
 
         Bunny bunny1=new Bunny("kivrishk",4,"white","small","Rex");
 
         System.out.println(bunny1);
+        bunny1.dig();
 
     }
 }
