@@ -13,6 +13,7 @@ public class SortLettersNumbers {
         System.out.println(sorting(str));
 
     }
+
     public static String sorting(String str){
         String str2 = "";
 
@@ -44,7 +45,8 @@ public class SortLettersNumbers {
 
         }
 
-        String[] arr = str2.split(",");
+        String[] arr = str2.split(",");  //   [DC 501 GCCCA 098911]
+                                              //  -->    CD015
 
         str ="";
 
@@ -61,7 +63,7 @@ public class SortLettersNumbers {
             }
 
         }
-
+//concatination
         return str;
 
     }
